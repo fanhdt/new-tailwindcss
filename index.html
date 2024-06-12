@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" cross />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-[#F1F4F5] font-['Poppins']">
+    <!-- Navbar Start -->
+    <nav class="header navbar max-w-6xl mx-auto py-10 px-5 md:px-8 xl:px-0 ">
+      <div class="flex flex-row items-center justify-between">
+        <a href="" class="hover:text-violet-700 h-[42px] text-2xl font-bold" >My Portofolio</a>
+          <ul class="font-semibold flex-row gap-x-8 lg:flex hidden">
+              <li><a href="#home" class="text-indigo-950 hover:text-violet-700">Home</a></li>
+              <li><a href="#about" class="text-indigo-950 hover:text-violet-700">About</a></li>
+              <li><a href="#skill" class="text-indigo-950 hover:text-violet-700">Skill</a></li>
+              <li><a href="#showcase" class="text-indigo-950 hover:text-violet-700">Showcase</a></li>
+              <li><a href="#contact" class="text-indigo-950 hover:text-violet-700">Contact</a></li>
+          </ul>
+          <div class="flex flex-row gap-x-4">
+             
+              <a href="#"
+                  class="md:block hidden py-4 bg-indigo-950 text-white text-base px-8 rounded-full hover:bg-violet-700 transition duration-500">
+                  Contact Me
+              </a>
+              <div id="btn-dropdown" class="lg:hidden bg-white flex items-center p-[10px] rounded-full">
+                  <a href="#">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M3 7H21" stroke="#080C2E" stroke-width="2" stroke-linecap="round" />
+                          <path d="M3 12H21" stroke="#080C2E" stroke-width="2" stroke-linecap="round" />
+                          <path d="M3 17H21" stroke="#080C2E" stroke-width="2" stroke-linecap="round" />
+                      </svg>
+
+                  </a>
+              </div>
+
+          </div>
+      </div>
+  </nav>
+  <!-- mega menu floating dropdown -->
+  <div id="dropdown-menu"
+      class="megamenu absolute top-28 justify-center flex flex-col hidden px-5 lg:hidden md:px-10 w-full">
+      <div class="flex flex-col bg-white p-5 md:p-8 rounded-2xl gap-y-5">
+          <ul class="flex flex-col gap-y-5">
+              <li><a href="#home" class="text-indigo-950 hover:text-violet-700">Products</a></li>
+              <li><a href="#about" class="text-indigo-950 hover:text-violet-700">Services</a></li>
+              <li><a href="#skill" class="text-indigo-950 hover:text-violet-700">Pricing</a></li>
+              <li><a href="#showcase" class="text-indigo-950 hover:text-violet-700">Testimonials</a></li>
+              <li><a href="#contact" class="text-indigo-950 hover:text-violet-700">Blog</a></li>
+          </ul>
+          <a href="#" class="md:hidden py-3 bg-indigo-950 text-white text-base px-5 text-center w-full rounded-full">
+              Contact Me
+          </a>
+      </div>
+
+  </div>
+
+    <!-- Hero Section Start -->
+    <section id="home" class="hero max-w-7xl mx-auto py-12 px-5">
+      <div class="flex flex-col gap-y-10 md:flex-row items-center justify-between">
+        <div class="flex flex-col gap-y-10 md:basis-2/4 lg:basis-3/6">
+          <div class="items-center w-fit gap-x-2 px-4 py-2 small-badge flex flex-row bg-white rounded-full">
+            <img src="/img//global.svg" alt="" />
+            <p class="text-base font-semibold">always give the best</p>
+          </div>
+          <div class="flex gap-y-2 flex-col">
+            <h1 class="mt-12 text-indigo-950 text-4xl font-poppins font-bold lg:text-[70px] leading-none">I'am a Front End<br class="lg:block hidden" /> Developer.</h1>
+
+            <p class="py-3 text-sm leading-loose text-gray-500">I'm Mochamad Irfan Hidayat, a Front End Web Developer <br class="lg:block hidden" />ready to make your dream website become a reality.</p>
+          </div>
+
+          <div class="flex flex-col gap-y-8 lg:flex-row gap-x-4 items-center">
+            <a class="w-full lg:w-fit bg-violet-900 text-lg font-poppins font-semibold text-white py-4 px-10 rounded-full text-center hover:bg-indigo-700 hover:scale-[0.98] transition duration-75 ease-out mt-4" href="#">Get in touch</a>
+          </div>
+        </div>
+        <div class="flex flex-row item-center">
+          <img src="/img//Personal.png" alt="" class="rounded-xl h-[397px] lg:h-[550px] md:basis-1/2" />
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Skill Logo Section Start-->
+
+    <!-- Skill logo Section Start -->
+    <section id="" class="skill max-w-7-xl mx-auto py-12">
+      <div class="flex flex-col gap-y-10 md:px-8 md:gap-y-0 md:flex-row gap-x-10 justify-center items-center">
+        <img src="/img//logo.svg" alt="" />
+        <img src="/img//logo.svg" alt="" />
+        <img src="/img//logo.svg" alt="" />
+        <img src="/img//logo.svg" alt="" />
+        <img src="/img//logo.svg" alt="" />
+      </div>
+    </section>
+    <!-- Skill Section End -->
+
+    <!-- Features Section Start-->
+     
+    <section id="skill" class="features max-w-7xl mx-auto py-12 md:px-8 px-4 xl:px-0">
+      <h3 class="text-indigo-950 font-semibold text-[34px]  md:text-5xl text-center mb-8">Your Best Choice</h3>
+      <div class="grid lg:grid-cols-4 gap-x-7 gap-y-8 grid-cols-1 sm:grid-cols-2">
+        <div class="my-card flex flex-col gap-y-5 bg-white rounded-2xl p-5">
+          <div class="image">
+            <img src="/img/" alt="" />
+          </div>
+          <div class="flex flex-col gap-y-1">
+            <h3 class="font-bold text-xl text-indigo-950">Extra Layers</h3>
+            <p class="py-3 text-base leading-loose text-gray-500">Making your project more secure avoiding DDoS</p>
+            <a class="font-bold text-violet-700 leading-relaxed" href=""> Learn More </a>
+          </a>
+        </div>
+      </div>
+      <div class="my-card flex flex-col gap-y-5 bg-white rounded-2xl p-5">
+        <div class="image">
+          <img src="/img/" alt="" />
+        </div>
+        <div class="flex flex-col gap-y-1">
+          <h3 class="font-bold text-xl text-indigo-950">Extra Layers</h3>
+          <p class="py-3 text-base leading-loose text-gray-500">Making your project more secure avoiding DDoS</p>
+          <a class="font-bold text-violet-700 leading-relaxed" href=""> Learn More </a>
+        </a>
+      </div>
+    </div>
+    <div class="my-card flex flex-col gap-y-5 bg-white rounded-2xl p-5">
+      <div class="image">
+        <img src="/img/" alt="" />
+      </div>
+      <div class="flex flex-col gap-y-1">
+        <h3 class="font-bold text-xl text-indigo-950">Extra Layers</h3>
+        <p class="py-3 text-base leading-loose text-gray-500">Making your project more secure avoiding DDoS</p>
+        <a class="font-bold text-violet-700 leading-relaxed" href=""> Learn More </a>
+      </a>
+    </div>
+  </div>
+  <div class="my-card flex flex-col gap-y-5 bg-white rounded-2xl p-5">
+    <div class="image">
+      <img src="/img/" alt="" />
+    </div>
+    <div class="flex flex-col gap-y-1">
+      <h3 class="font-bold text-xl text-indigo-950">Extra Layers</h3>
+      <p class="py-3 text-base leading-loose text-gray-500">Making your project more secure avoiding DDoS</p>
+      <a class="font-bold text-violet-700 leading-relaxed" href=""> Learn More </a>
+    </a>
+  </div>
+</div>
+    </section>
+    <!-- features Section End-->
+
+    <!-- Benefit Section Start-->
+    <section id="about" class="benefit max-w-7xl mx-auto py-12 md:px-8 px-4 xl:px-0">
+      <div class="flex flex-col lg:gap-x-24 md:flex-row items-center gap-x-24">
+        <div class="flex flex-row item-center">
+          <img src="/img//Personal.png" alt="" class="h-[360px] lg:h-[550px]" />
+        </div>
+        <div class="flex flex-col text-left basis2/4
+         gap-y-10">
+          <div class="flex gap-y-2 flex-col">
+            <h1 class="mt-12 md:leading-lg text-[34px]  text-indigo-950 font-poppins font-bold lg:text-5xl leading-tight">We Have Very <br class="hidden lg:block">Strong Ecoystem</h1>
+
+            <p class="py-3 text-base leading-loose text-gray-500">We provide a variety of servers to grow your users <br class="hidden lg:block">acquisition much user-friendly and boosting up sales.</p>
+          </div>
+         <div class="flex flex-col gap-y-5">
+          <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3">
+            <img src="/img/" alt="">
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl text-indigo-950">Work Faster</h3>
+              <p class="text-base leading-tight text-gray-500">Company Budget Save</p>
+            
+          </div>
+          
+          </div>
+          <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3">
+            <img src="/img/" alt="">
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl text-indigo-950">Work Faster</h3>
+              <p class="text-base leading-tight text-gray-500">Company Budget Save</p>
+            
+          </div>
+          
+          </div>
+          <div class="card-benefits flex flex-row bg-white rounded-2xl p-5 items-center gap-x-3">
+            <img src="/img/" alt="">
+            <div class="flex flex-col">
+              <h3 class="font-bold text-xl text-indigo-950">Work Faster</h3>
+              <p class="text-base leading-tight text-gray-500">Company Budget Save</p>
+            
+          </div>
+          
+          </div>
+          
+         </div>
+          <div class="flex flex-row gap-x-4 items-center">
+            <a class="lg:w-fit bg-violet-900 text-lg font-poppins font-semibold text-white py-4 px-10 rounded-full text-center hover:bg-indigo-700 hover:scale-[0.98] transition duration-75 ease-out mt-4" href="#">Contact Me</a>
+          
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    <!-- Benefit Section End -->
+     <!-- Showcase Start -->
+     <section id="skill" class="showcase mx-auto py-12 md:px-8 px-4 xl:px-0">
+      <div class="flex flex-col gap-y-8">
+        <div class="flex gap-y-2 flex-col text-center">
+          <h3 class="text-[34px] mt-12 text-indigo-950 font-poppins font-bold lg:text-5xl leading-tight">My Project</h3>
+
+          <p class="py-3 text-base leading-loose text-gray-500">They built amazing website to help more people around the world <br>by using our recommendation services and products</p>
+        </div>
+        <div class="flex lg:flex-row flex-wrap gap-x-10 gap-y-10 justify-center items-center">
+          <div class="group relative">
+            <div class="absolute opacity-0  group-hover:opacity-100 duration-200 transition-all ease-in-out justify-center flex bottom-8 w-full">
+              <a href="" class="bg-violet-700 rounded-full px-7 shadow-2xl shadow-violet-700  hover:bg-[#080c2e] transition-all ease-in-out duration-200 font-semibold py-3 text-white">View Details</a>
+            </div>
+            <img src="/img//Rectangle 4.png" alt="" class="w-[320px] rounded-2xl h-[220px] duration-200 transition-all ease-in-out group-hover:border-4 border-violet-700">
+          </div>
+          <div class="group relative">
+            <div class="absolute opacity-0  group-hover:opacity-100 duration-500 transition-all ease-in-out justify-center flex bottom-8 w-full">
+              <a href="" class="bg-violet-700 rounded-full px-7 shadow-2xl shadow-violet-700  hover:bg-[#080c2e] transition-all ease-in-out duration-200 font-semibold py-3 text-white">View Details</a>
+            </div>
+            <img src="/img//Rectangle 4.png" alt="" class="w-[320px] rounded-2xl h-[220px] duration-200 transition-all ease-in-out group-hover:border-4 border-violet-700">
+          </div>
+          <div class="group relative">
+            <div class="absolute opacity-0  group-hover:opacity-100 duration-200 transition-all ease-in-out justify-center flex bottom-8 w-full">
+              <a href="" class="bg-violet-700 rounded-full px-7 shadow-2xl shadow-violet-700  hover:bg-[#080c2e] transition-all ease-in-out duration-200 font-semibold py-3 text-white">View Details</a>
+            </div>
+            <img src="/img//Rectangle 4.png" alt="" class="w-[320px] rounded-2xl h-[220px] duration-200 transition-all ease-in-out group-hover:border-4 border-violet-700">
+          </div>
+          <div class="group relative">
+            <div class="absolute opacity-0  group-hover:opacity-100 duration-200 transition-all ease-in-out justify-center flex bottom-8 w-full">
+              <a href="" class="bg-violet-700 rounded-full px-7 shadow-2xl shadow-violet-700  hover:bg-[#080c2e] transition-all ease-in-out duration-200 font-semibold py-3 text-white">View Details</a>
+            </div>
+            <img src="/img//Rectangle 4.png" alt="" class="w-[320px] rounded-2xl h-[220px] duration-200 transition-all ease-in-out group-hover:border-4 border-violet-700">
+          </div>
+        </section>
+     <!-- Showcase End -->
+      <!-- Faq Start -->
+      <section class="max-w-6xl mx-auto py-12 md:px-8 px-4 xl:px-0">
+        <div class="flex flex-col gap-y-7">
+            <h3
+                class="leading-tight md:leading-lg text-[34px] lg:text-5xl text-indigo-950 text-center  font-bold mb-5">
+                Frequently Asked Questions
+            </h3>
+            <div class="grid lg:grid-cols-2 gap-x-8 gap-y-8">
+                <div class="flex-col flex gap-y-8">
+                    <div class="group faq-card shaynakit-accordion">
+                        <div class="bg-white rounded-2xl p-5 flex flex-col gap-y-5">
+                            <a href="#" class="btn-accordion">
+                                <div class="flex flex-row justify-between">
+                                    <h3 class="text-indigo-950 font-bold text-lg">
+                                        Question About Me
+                                    </h3>
+                                    <div
+                                        class="bg-white w-[30px] h-[30px] items-center flex justify-center rounded-full">
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.44 6.7124L10.55 11.6024C9.9725 12.1799 9.0275 12.1799 8.45 11.6024L3.56 6.7124"
+                                                stroke="#080C2E" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="accordion-content hidden flex flex-col gap-y-5">
+                                <p class="text-base text-gray-500 leading-loose">
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni omnis harum quis reprehenderit quasi numquam ad doloribus officiis a aspernatur maxime soluta autem veritatis, et atque nulla accusamus fuga iusto.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group faq-card shaynakit-accordion">
+                        <div class="bg-white rounded-2xl p-5 flex flex-col gap-y-5">
+                            <a href="#" class="btn-accordion">
+                                <div class="flex flex-row justify-between">
+                                    <h3 class="text-indigo-950 font-bold text-lg">
+                                       Question About Me
+                                    </h3>
+                                    <div
+                                        class="bg-white w-[30px] h-[30px] items-center flex justify-center rounded-full">
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.44 6.7124L10.55 11.6024C9.9725 12.1799 9.0275 12.1799 8.45 11.6024L3.56 6.7124"
+                                                stroke="#080C2E" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="accordion-content hidden flex flex-col gap-y-5">
+                                <p class="text-base text-gray-500 leading-loose">
+                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit autem quod dolore eum sit distinctio repellat sequi aspernatur? Hic iste maxime dicta excepturi ipsa fugiat unde cumque quae, quod ratione!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="group faq-card shaynakit-accordion">
+                        <div class="bg-white rounded-2xl p-5 flex flex-col gap-y-5">
+                            <a href="#" class="btn-accordion">
+                                <div class="flex flex-row justify-between">
+                                    <h3 class="text-indigo-950 font-bold text-lg">
+                                        Question About Me
+                                    </h3>
+                                    <div
+                                        class="bg-white w-[30px] h-[30px] items-center flex justify-center rounded-full">
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.44 6.7124L10.55 11.6024C9.9725 12.1799 9.0275 12.1799 8.45 11.6024L3.56 6.7124"
+                                                stroke="#080C2E" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="accordion-content hidden flex flex-col gap-y-5">
+                                <p class=" text-base text-gray-500 leading-loose">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, facere ad. Harum sint, numquam dolore tempore exercitationem non fuga quam alias voluptate eveniet minus itaque consectetur. Modi libero dolores sint.
+                                </p>
+                                
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex-col flex gap-y-8">
+                    <div class="group faq-card shaynakit-accordion">
+                        <div class="bg-white rounded-2xl p-5 flex flex-col gap-y-5">
+                            <a href="#" class="btn-accordion">
+                                <div class="flex flex-row justify-between">
+                                    <h3 class="text-indigo-950 font-bold text-lg">
+                                        Question About Me?
+                                    </h3>
+                                    <div
+                                        class="bg-white w-[30px] h-[30px] items-center flex justify-center rounded-full">
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.44 6.7124L10.55 11.6024C9.9725 12.1799 9.0275 12.1799 8.45 11.6024L3.56 6.7124"
+                                                stroke="#080C2E" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="accordion-content hidden flex flex-col gap-y-5">
+                                <p class=" text-base text-gray-500 leading-loose">
+                                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt cupiditate nam totam cum similique expedita enim, numquam molestiae fuga obcaecati, alias harum odio repellendus aliquid nisi optio autem quis quas?
+                                </p>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="group faq-card shaynakit-accordion">
+                        <div class="bg-white rounded-2xl p-5 flex flex-col gap-y-5">
+                            <a href="#" class="btn-accordion">
+                                <div class="flex flex-row justify-between">
+                                    <h3 class="text-indigo-950 font-bold text-lg">
+                                        Question About Me?
+                                    </h3>
+                                    <div
+                                        class="bg-white w-[30px] h-[30px] items-center flex justify-center rounded-full">
+                                        <svg width="19" height="18" viewBox="0 0 19 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M15.44 6.7124L10.55 11.6024C9.9725 12.1799 9.0275 12.1799 8.45 11.6024L3.56 6.7124"
+                                                stroke="#080C2E" stroke-width="2" stroke-miterlimit="10"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg>
+
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="accordion-content hidden flex flex-col gap-y-5">
+                                <p class=" text-base text-gray-500 leading-loose">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, consequatur delectus dicta iste officiis expedita voluptate facilis eos quae praesentium ipsum ex neque, pariatur, voluptatem error aliquam dignissimos vitae aspernatur.
+                                </p>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="group faq-card">
+                        <div class="bg-[#080C2E] rounded-2xl p-5 flex flex-col gap-y-5">
+                            <div class="flex flex-row justify-between items-center">
+                                <a href="#" class="text-white flex gap-x-2">
+                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M20.5 12.2V13.9C20.5 17.05 18.7 18.4 16 18.4H7C4.3 18.4 2.5 17.05 2.5 13.9V8.5C2.5 5.35 4.3 4 7 4H9.7C9.57 4.38 9.5 4.8 9.5 5.25V9.15002C9.5 10.12 9.82 10.94 10.39 11.51C10.96 12.08 11.78 12.4 12.75 12.4V13.79C12.75 14.3 13.33 14.61 13.76 14.33L16.65 12.4H19.25C19.7 12.4 20.12 12.33 20.5 12.2Z"
+                                            stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M22.5 5.25V9.15002C22.5 10.64 21.74 11.76 20.5 12.2C20.12 12.33 19.7 12.4 19.25 12.4H16.65L13.76 14.33C13.33 14.61 12.75 14.3 12.75 13.79V12.4C11.78 12.4 10.96 12.08 10.39 11.51C9.82 10.94 9.5 10.12 9.5 9.15002V5.25C9.5 4.8 9.57 4.38 9.7 4C10.14 2.76 11.26 2 12.75 2H19.25C21.2 2 22.5 3.3 22.5 5.25Z"
+                                            stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.9 22H15.1" stroke="white" stroke-width="2" stroke-miterlimit="10"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M11.5 18.3999V21.9999" stroke="white" stroke-width="2"
+                                            stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M18.9955 7.25H19.0045" stroke="white" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M16.1957 7.25H16.2047" stroke="white" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M13.3954 7.25H13.4044" stroke="white" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+
+                                    Send e-mail to us for other questions
+                                </a>
+                                <svg width="31" height="30" viewBox="0 0 31 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="30" width="30" height="30" rx="15" transform="rotate(-90 0.5 30)"
+                                        fill="white" />
+                                    <path
+                                        d="M13.2125 9.05994L18.1025 13.9499C18.68 14.5274 18.68 15.4724 18.1025 16.0499L13.2125 20.9399"
+                                        stroke="#080C2E" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+    </section>
+      <!-- Faq End -->
+      <!-- Skill Scetion STart -->
+       <section id="contact" class="max-w-7xl mx-auto">
+        <div class="mx-4 md:mx-8 xl:mx-0 rounded-3xl bg-violet-700 mt-20 md:relative z-20  py-12 md:px-8 px-4 xl:px-10 relative">
+          <div class="grid lg:grid-cols-2 gap-x-10 items-center">
+              <div class="flex flex-col gap-y-10">
+                  <div class="w-fit gap-x-2 px-4 py-2 small-badge flex flex-row bg-white rounded-full">
+                    <img src="/img//global.svg" alt="" />
+                    <p class="text-base font-semibold">always give the best</p>
+                  </div>
+                  <div class="flex gap-y-2 flex-col">
+                  
+                    <h1 class="mt-12 leading-tight md:leading-lg text-[34px]  text-white font-poppins font-bold lg:text-5xl">Hire Me Now</h1>
+        
+                    <p class="py-3 text-base leading-loose text-white">We provide a variety of servers to grow your users <br class="md:block hidden">acquisition much user-friendly and boosting up sales.</p>
+                  </div>
+        
+                  <div class="flex flex-col gap-x-4 sm:flex-row items-center py-5">
+                    <a class="bg-[#ffd15a] w-full sm:w-fit text-lg font-poppins font-semibold text-indigo-950 py-4 px-10 rounded-full text-center hover:bg-[#eeb117] hover:scale-[0.98] transition duration-75 ease-out mt-4" href="#">Get Started</a>
+                 
+                  </div>
+                </div>
+              <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-x-5 gap-y-5">
+                  <div class="group py-5 h-fit md:py-[4px] hover:bg-[#080c2e] transition-all ease-in-out dura closind-skill-features gap-y-5 justify-center flex flex-col items-center  closing-skill-feature bg-white p-5 rounded-2xl">
+                    <img class="w-1/2" src="/img//317755_badge_html_html5_achievement_award_icon.svg" alt="">
+                    <div class="flex flex-col item-center">
+                      <h3 class="font-bold text-lg text-indigo-950 group-hover:text-white text-center">HTML</h3>
+                      <a class="font-poppins text-base text-gray-500 font-semibold opacity-0 group-hover:opacity-100 text-center" href="">Learn More</a>
+                    </div>
+                </div>
+      
+                <div class="group py-5 h-fit md:py-[4px] hover:bg-[#080c2e] transition-all ease-in-out dura closind-skill-features gap-y-5 justify-center flex flex-col items-center  closing-skill-feature bg-white p-5 rounded-2xl">
+                  <img class="w-1/2" src="/img//317756_badge_css_css3_achievement_award_icon.svg" alt="">
+                  <div class="flex flex-col item-center">
+                    <h3 class="font-bold text-lg text-indigo-950 group-hover:text-white text-center">CSS</h3>
+                    <a class="font-poppins text-base text-gray-500 font-semibold opacity-0 group-hover:opacity-100 text-center" href="">Learn More</a>
+                  </div>
+              </div>
+            
+      
+              <div class="group py-5 h-fit md:py-[4px] hover:bg-[#080c2e] transition-all ease-in-out dura closind-skill-features gap-y-5 justify-center flex flex-col items-center  closing-skill-feature bg-white p-5 rounded-2xl">
+                <img class="w-1/2 bg-yellow-400" src="/img//9035061_logo_javascript_icon.svg" alt="">
+                <div class="flex flex-col item-center">
+                  <h3 class="font-bold text-lg text-indigo-950 group-hover:text-white text-center">JavaSCript</h3>
+                  <a class="font-poppins text-base text-gray-500 font-semibold opacity-0 group-hover:opacity-100 text-center" href="">Learn More</a>
+                </div>
+            </div>
+      
+            <div class="group py-5 h-fit md:py-[4px] hover:bg-[#080c2e] transition-all ease-in-out dura closind-skill-features gap-y-5 justify-center flex flex-col items-center  closing-skill-feature bg-white p-5 rounded-2xl">
+              <img class="w-[115px]" src="/img///tailwind-css.svg" alt="">
+              <div class="flex flex-col item-center">
+                <h3 class="font-bold text-lg text-indigo-950 group-hover:text-white">TailwindCSS</h3>
+                <a class="font-poppins text-base text-gray-500 font-semibold opacity-0 group-hover:opacity-100 text-center" href="">Learn More</a>
+              </div>
+          </div>
+      
+          <div class="group py-5 h-fit md:py-[4px] hover:bg-[#080c2e] transition-all ease-in-out dura closind-skill-features gap-y-5 justify-center flex flex-col items-center  closing-skill-feature bg-white p-5 rounded-2xl">
+            <img class="w-1/2" src="/img//1174949_js_react js_logo_react_react native_icon.svg" alt="">
+            <div class="flex flex-col item-center">
+              <h3 class="font-bold text-center text-lg text-indigo-950 group-hover:text-white ">React</h3>
+              <a class="font-poppins text-base text-gray-500 font-semibold opacity-0 group-hover:opacity-100 text-center" href="">Learn More</a>
+            </div>
+        </div>
+      
+        <div class="group py-5 h-fit md:py-[4px] hover:bg-[#080c2e] transition-all ease-in-out dura closind-skill-features gap-y-5 justify-center flex flex-col items-center  closing-skill-feature bg-white p-5 rounded-2xl">
+          <img src="/img//bootstrap.svg" alt="" class="w-1/2">
+          <div class="flex flex-col item-center">
+            <h3 class="font-bold text-lg text-indigo-950 group-hover:text-white text-center">Bootstrap</h3>
+            <a class="font-poppins text-base text-gray-500 font-semibold opacity-0 group-hover:opacity-100 text-center" href="">Learn More</a>
+            </div>
+          </div>      
+        </div>  
+      </div>
+       </section>
+
+      <!-- Skill Scetion End -->
+
+       <!-- Footer Section Start -->
+       <section id="" class="footer w-screen bg-[#080C2E] lg:-z-10 lg:-mt-[230px] lg:pt-[230px] h-fit">
+        <div class="max-w-7xl mx-auto mt-[100px] px-5 py-10 lg:py-0 xl:px-0">
+            <div class="grid lg:grid-cols-5 gap-x-10 gap-y-8 grid-cols-1 sm:grid-cols-2">
+                <div class="lg:col-span-2 flex flex-col gap-y-8">
+                    <a href="" class="font-bold text-4xl  text-violet-700 w-fit h-[42px]">My Portofolio</a>
+                    <p class="text-base text-gray-400 leading-relaxed">
+                        We host your empire business today<br> using the latest technologies.
+                    </p>
+                    <div class="flex flex-row gap-x-3">
+                      <div>
+                        <a class="bg-white rounded-full flex p-2 text-center group-hover:bg-violet-700" href=""> <img src="/img//btn small secondary.svg" alt="" /></a>
+                      </div>
+                      <div>
+                        <a class="bg-white rounded-full flex p-2 text-center group-hover:bg-violet-700" href=""> <img src="/img//btn small secondary.svg" alt="" /></a>
+                      </div>
+                      <div>
+                        <a class="bg-white rounded-full flex p-2 text-center group-hover:bg-violet-700" href=""> <img src="/img//btn small secondary.svg" alt="" /></a>
+                      </div>
+                      <div>
+                        <a class="bg-white rounded-full flex p-2 text-center group-hover:bg-violet-700" href=""> <img src="/img//btn small secondary.svg" alt="" /></a>
+                      </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-y-8">
+                    <h3 class="text-white font-semibold text-lg">
+                        Products
+                    </h3>
+                    <ul class="gap-y-4 flex flex-col">
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">UI/UX Design</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Web Application</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Slicing Figma</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Auto-Scaling Up</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-y-8">
+                    <h3 class="text-white font-semibold text-lg">
+                        Resources
+                    </h3>
+                    <ul class="gap-y-4 flex flex-col">
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Support 24/7</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Help Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">How-to Instructions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Blog & Tips</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">About Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex flex-col gap-y-8">
+                    <h3 class="text-white font-semibold text-lg">
+                        Company
+                    </h3>
+                    <ul class="gap-y-4 flex flex-col">
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Privacy and Policy</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Terms and Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Investor Relations</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Join With Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-gray-400 hover:text-violet-300">Our Statistics</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <p class="py-20 text-center text-base text-gray-400">
+                All Rights Reserved • Made by 
+                    <a href="#" class="hover:text-violet-300">Mochamad Irfan Hidayat</a>
+            </p>
+        </div>
+    </section>
+      <!-- Footer Section End -->
+ <!-- Back to Top START -->
+ <a href="#"
+ class="fixed z-[9999] bottom-4 right-4 w-14 h-14 bg-primary rounded-full hidden justify-center items-center hover:bg-teal-400 animate-bounce"
+ id="to-top">
+ <i data-feather="arrow-up"></i>
+</a>
+</div> <!-- Back to Top END -->
+<script>
+  feather.replace();
+</script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+  const btndropdown = document.getElementById("btn-dropdown");
+  const dropdownmenu = document.getElementById("dropdown-menu");
+
+  btndropdown.addEventListener("click", function () {
+    dropdownmenu.classList.toggle("hidden");
+  });
+
+  document.addEventListener("click", function (event) {
+    if (!btndropdown.contains(event.target) && !dropdownmenu.contains(event.target)) {
+      dropdownmenu.classList.add("hidden");
+    }
+  });
+
+  const shaynakitAccordions = document.querySelectorAll(".shaynakit-accordion");
+
+  shaynakitAccordions.forEach(function (shaynakitAccordion) {
+    const btnAccordion = shaynakitAccordion.querySelector(".btn-accordion");
+    const accordionContent = shaynakitAccordion.querySelector(".accordion-content");
+
+    btnAccordion.addEventListener("click", function (event) {
+      event.preventDefault();
+      accordionContent.classList.toggle("hidden");
+    });
+  });
+});
+
+
+    </script>
+   
+      
+  
+  </body>
+</html>
