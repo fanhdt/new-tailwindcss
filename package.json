@@ -1,15 +1,14 @@
 {
-  "name": "bwa-challenge",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "tugas-akhir-desweb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "tailwindcss": "^3.4.4"
+  "devDependencies": {
+    "vite": "^5.2.0"
   }
 }
